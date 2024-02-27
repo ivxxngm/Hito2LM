@@ -1,0 +1,364 @@
+{
+  "pedidos": [
+    {
+      "nombre": "Juan",
+      "apellidos": "García",
+      "telefono": "123456789",
+      "direccion": {
+        "calle": "Calle Principal 123",
+        "ciudad": "Ciudad Real",
+        "codigo_postal": "13001",
+        "provincia": "Ciudad Real"
+      },
+      "correo_electronico": "juan@example.com",
+      "fecha_inclusion": "2021-01-05",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "001",
+          "fecha_compra": "2021-01-05",
+          "fecha_entrega": "2021-01-10",
+          "total_factura": 50.0,
+          "productos": [
+            {
+              "nombre_producto": "Camiseta",
+              "referencia": "CAM001",
+              "precio": 20.0,
+              "unidades": 2
+            },
+            {
+              "nombre_producto": "Pantalón",
+              "referencia": "PAN002",
+              "precio": 10.0,
+              "unidades": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ana",
+      "apellidos": "López",
+      "telefono": "987654321",
+      "direccion": {
+        "calle": "Calle Secundaria 456",
+        "ciudad": "Madrid",
+        "codigo_postal": "28001",
+        "provincia": "Madrid"
+      },
+      "correo_electronico": "ana@example.com",
+      "fecha_inclusion": "2021-02-15",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "002",
+          "fecha_compra": "2021-02-15",
+          "fecha_entrega": "2021-02-20",
+          "total_factura": 75.0,
+          "productos": [
+            {
+              "nombre_producto": "Vestido",
+              "referencia": "VES001",
+              "precio": 25.0,
+              "unidades": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Carlos",
+      "apellidos": "Martínez",
+      "telefono": "456789123",
+      "direccion": {
+        "calle": "Calle Tercera 789",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08001",
+        "provincia": "Barcelona"
+      },
+      "correo_electronico": "carlos@example.com",
+      "fecha_inclusion": "2021-03-10",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "003",
+          "fecha_compra": "2021-03-10",
+          "fecha_entrega": "2021-03-15",
+          "total_factura": 100.0,
+          "productos": [
+            {
+              "nombre_producto": "Zapatillas",
+              "referencia": "ZAP001",
+              "precio": 50.0,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Laura",
+      "apellidos": "Gómez",
+      "telefono": "111111111",
+      "direccion": {
+        "calle": "Calle Cuarta 111",
+        "ciudad": "Valencia",
+        "codigo_postal": "46001",
+        "provincia": "Valencia"
+      },
+      "correo_electronico": "laura@example.com",
+      "fecha_inclusion": "2021-04-20",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "004",
+          "fecha_compra": "2021-04-20",
+          "fecha_entrega": "2021-04-25",
+          "total_factura": 80.0,
+          "productos": [
+            {
+              "nombre_producto": "Blusa",
+              "referencia": "BLU001",
+              "precio": 30.0,
+              "unidades": 2
+            },
+            {
+              "nombre_producto": "Falda",
+              "referencia": "FAL001",
+              "precio": 20.0,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Pedro",
+      "apellidos": "Sánchez",
+      "telefono": "222222222",
+      "direccion": {
+        "calle": "Calle Quinta 222",
+        "ciudad": "Sevilla",
+        "codigo_postal": "41001",
+        "provincia": "Sevilla"
+      },
+      "correo_electronico": "pedro@example.com",
+      "fecha_inclusion": "2021-05-10",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "005",
+          "fecha_compra": "2021-05-10",
+          "fecha_entrega": "2021-05-15",
+          "total_factura": 60.0,
+          "productos": [
+            {
+              "nombre_producto": "Camisa",
+              "referencia": "CAM002",
+              "precio": 30.0,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "María",
+      "apellidos": "Rodríguez",
+      "telefono": "333333333",
+      "direccion": {
+        "calle": "Calle Sexta 333",
+        "ciudad": "Bilbao",
+        "codigo_postal": "48001",
+        "provincia": "Vizcaya"
+      },
+      "correo_electronico": "maria@example.com",
+      "fecha_inclusion": "2021-06-25",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "006",
+          "fecha_compra": "2021-06-25",
+          "fecha_entrega": "2021-06-30",
+          "total_factura": 90.0,
+          "productos": [
+            {
+              "nombre_producto": "Chaqueta",
+              "referencia": "CHA001",
+              "precio": 40.0,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Sara",
+      "apellidos": "Fernández",
+      "telefono": "444444444",
+      "direccion": {
+        "calle": "Calle Séptima 444",
+        "ciudad": "Málaga",
+        "codigo_postal": "29001",
+        "provincia": "Málaga"
+      },
+      "correo_electronico": "sara@example.com",
+      "fecha_inclusion": "2021-07-15",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "007",
+          "fecha_compra": "2021-07-15",
+          "fecha_entrega": "2021-07-20",
+          "total_factura": 70.0,
+          "productos": [
+            {
+              "nombre_producto": "Pantalón",
+              "referencia": "PAN003",
+              "precio": 30.0,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Luis",
+      "apellidos": "Hernández",
+      "telefono": "555555555",
+      "direccion": {
+        "calle": "Calle Octava 555",
+        "ciudad": "Alicante",
+        "codigo_postal": "03001",
+        "provincia": "Alicante"
+      },
+      "correo_electronico": "luis@example.com",
+      "fecha_inclusion": "2021-08-10",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "008",
+          "fecha_compra": "2021-08-10",
+          "fecha_entrega": "2021-08-15",
+          "total_factura": 120.0,
+          "productos": [
+            {
+              "nombre_producto": "Abrigo",
+              "referencia": "ABR001",
+              "precio": 60.0,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Marta",
+      "apellidos": "González",
+      "telefono": "666666666",
+      "direccion": {
+        "calle": "Calle Novena 666",
+        "ciudad": "Zaragoza",
+        "codigo_postal": "50001",
+        "provincia": "Zaragoza"
+      },
+      "correo_electronico": "marta@example.com",
+      "fecha_inclusion": "2021-09-25",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "009",
+          "fecha_compra": "2021-09-25",
+          "fecha_entrega": "2021-09-30",
+          "total_factura": 40.0,
+          "productos": [
+            {
+              "nombre_producto": "Gorra",
+              "referencia": "GOR001",
+              "precio": 20.0,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Javier",
+      "apellidos": "Pérez",
+      "telefono": "777777777",
+      "direccion": {
+        "calle": "Calle Décima 777",
+        "ciudad": "Granada",
+        "codigo_postal": "18001",
+        "provincia": "Granada"
+      },
+      "correo_electronico": "javier@example.com",
+      "fecha_inclusion": "2021-10-15",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "010",
+          "fecha_compra": "2021-10-15",
+          "fecha_entrega": "2021-10-20",
+          "total_factura": 55.0,
+          "productos": [
+            {
+              "nombre_producto": "Sudadera",
+              "referencia": "SUD001",
+              "precio": 25.0,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Elena",
+      "apellidos": "Ramírez",
+      "telefono": "888888888",
+      "direccion": {
+        "calle": "Calle Onceava 888",
+        "ciudad": "Murcia",
+        "codigo_postal": "30001",
+        "provincia": "Murcia"
+      },
+      "correo_electronico": "elena@example.com",
+      "fecha_inclusion": "2021-11-10",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "011",
+          "fecha_compra": "2021-11-10",
+          "fecha_entrega": "2021-11-15",
+          "total_factura": 65.0,
+          "productos": [
+            {
+              "nombre_producto": "Jersey",
+              "referencia": "JER001",
+              "precio": 30.0,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Isabel",
+      "apellidos": "Torres",
+      "telefono": "999999999",
+      "direccion": {
+        "calle": "Calle Doceava 999",
+        "ciudad": "Palma de Mallorca",
+        "codigo_postal": "07001",
+        "provincia": "Islas Baleares"
+      },
+      "correo_electronico": "isabel@example.com",
+      "fecha_inclusion": "2021-12-25",
+      "detalles_pedido": [
+        {
+          "numero_pedido": "012",
+          "fecha_compra": "2021-12-25",
+          "fecha_entrega": "2021-12-30",
+          "total_factura": 85.0,
+          "productos": [
+            {
+              "nombre_producto": "Pantalón",
+              "referencia": "PAN004",
+              "precio": 40.0,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

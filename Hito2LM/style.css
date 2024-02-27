@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #pedidos-table-container {
+    margin-top: 20px;
+  }
+  
+  #tablaPedidos{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  #tablaPedidos th, #tablaPedidos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tablaPedidos th {
+    background-color: #f2f2f2;
+  }
+  
+  #tablaPedidos tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #tablaPedidos tr:hover {
+    background-color: #ddd;
+  }
+  
